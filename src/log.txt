@@ -1,0 +1,44 @@
+[INFO 2024-12-10 21:14:06,628] args[batch_size]=128
+[INFO 2024-12-10 21:14:06,628] args[category_emb_dim]=100
+[INFO 2024-12-10 21:14:06,628] args[drop_rate]=0.2
+[INFO 2024-12-10 21:14:06,628] args[enable_gpu]=True
+[INFO 2024-12-10 21:14:06,628] args[epochs]=1
+[INFO 2024-12-10 21:14:06,628] args[filter_num]=3
+[INFO 2024-12-10 21:14:06,628] args[freeze_embedding]=False
+[INFO 2024-12-10 21:14:06,628] args[glove_embedding_path]=../data/glove.840B.300d.txt
+[INFO 2024-12-10 21:14:06,628] args[load_ckpt_name]=epoch-5.pt
+[INFO 2024-12-10 21:14:06,628] args[log_steps]=100
+[INFO 2024-12-10 21:14:06,628] args[lr]=0.0001
+[INFO 2024-12-10 21:14:06,628] args[mode]=test
+[INFO 2024-12-10 21:14:06,628] args[model]=NAML
+[INFO 2024-12-10 21:14:06,628] args[model_dir]=../model/NAML
+[INFO 2024-12-10 21:14:06,628] args[nGPU]=2
+[INFO 2024-12-10 21:14:06,628] args[news_dim]=400
+[INFO 2024-12-10 21:14:06,628] args[news_query_vector_dim]=200
+[INFO 2024-12-10 21:14:06,628] args[npratio]=4
+[INFO 2024-12-10 21:14:06,628] args[num_attention_heads]=20
+[INFO 2024-12-10 21:14:06,628] args[num_words_abstract]=50
+[INFO 2024-12-10 21:14:06,628] args[num_words_title]=20
+[INFO 2024-12-10 21:14:06,628] args[prepare]=True
+[INFO 2024-12-10 21:14:06,628] args[save_steps]=10000
+[INFO 2024-12-10 21:14:06,628] args[seed]=0
+[INFO 2024-12-10 21:14:06,628] args[start_epoch]=0
+[INFO 2024-12-10 21:14:06,628] args[test_data_dir]=../data/MINDsmall_dev
+[INFO 2024-12-10 21:14:06,628] args[train_data_dir]=../data/MINDsmall_train
+[INFO 2024-12-10 21:14:06,628] args[use_category]=True
+[INFO 2024-12-10 21:14:06,628] args[use_subcategory]=True
+[INFO 2024-12-10 21:14:06,628] args[user_log_length]=50
+[INFO 2024-12-10 21:14:06,628] args[user_log_mask]=True
+[INFO 2024-12-10 21:14:06,628] args[user_query_vector_dim]=200
+[INFO 2024-12-10 21:14:06,628] args[word_embedding_dim]=300
+[INFO 2024-12-10 21:14:06,629] Preparing testing data...
+[INFO 2024-12-10 21:14:06,685] Writing files...
+[INFO 2024-12-10 21:14:06,764] 73152 testing samples in total.
+[INFO 2024-12-10 21:14:07,635] Added key: store_based_barrier_key:1 to store for rank: 1
+[INFO 2024-12-10 21:14:07,643] Added key: store_based_barrier_key:1 to store for rank: 0
+[INFO 2024-12-10 21:14:07,644] Rank 0: Completed store-based barrier for key:store_based_barrier_key:1 with 2 nodes.
+[INFO 2024-12-10 21:14:07,645] Rank 1: Completed store-based barrier for key:store_based_barrier_key:1 with 2 nodes.
+[INFO 2024-12-10 21:14:07,675] Model loaded from ../model/NAML/epoch-5.pt
+[INFO 2024-12-10 21:14:07,704] Model loaded from ../model/NAML/epoch-5.pt
+[INFO 2024-12-10 21:14:21,677] news scoring num: 42417
+[INFO 2024-12-10 21:14:21,693] news scoring num: 42417
